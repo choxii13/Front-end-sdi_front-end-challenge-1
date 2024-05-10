@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-dark-color: #333333;
+  --font-light-color: #666666;
+  --background-white-color: #ffffff;
+  --secondary-light-color: #00b4d9;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-white-color);
+}
+
+header > nav,
+main > section {
+  width: 95%;
+  margin: auto;
+  max-width: 80rem;
+  margin-bottom: 1rem;
+}
